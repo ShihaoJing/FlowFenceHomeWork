@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fencedpresencepublisher/fencedpresencepublisher.iml" filepath="$PROJECT_DIR$/fencedpresencepublisher/fencedpresencepublisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fencedpresenceresponder/fencedpresenceresponder.iml" filepath="$PROJECT_DIR$/fencedpresenceresponder/fencedpresenceresponder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oasis.client/oasis.client.iml" filepath="$PROJECT_DIR$/oasis.client/oasis.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oasis.common/oasis.common.iml" filepath="$PROJECT_DIR$/oasis.common/oasis.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oasis.service/oasis.service.iml" filepath="$PROJECT_DIR$/oasis.service/oasis.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oasis.study.skeleton/oasis.study.skeleton.iml" filepath="$PROJECT_DIR$/oasis.study.skeleton/oasis.study.skeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oasis2.iml" filepath="$PROJECT_DIR$/oasis2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartthingsservice/smartthingsservice.iml" filepath="$PROJECT_DIR$/smartthingsservice/smartthingsservice.iml" />
+    </modules>
+  </component>
+</project>

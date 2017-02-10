@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/fencedpresencepublisher" />
+            <option value="$PROJECT_DIR$/fencedpresenceresponder" />
+            <option value="$PROJECT_DIR$/oasis.client" />
+            <option value="$PROJECT_DIR$/oasis.common" />
+            <option value="$PROJECT_DIR$/oasis.service" />
+            <option value="$PROJECT_DIR$/oasis.study.skeleton" />
+            <option value="$PROJECT_DIR$/smartthingsservice" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_38af1d7527602447c9fb756164e9f558bb62514d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.caminjector/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.caminjector/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_be92819f334076118f46eaf6bec7359d28c40756.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_112ded6288afa2df723156fa131e05c9fe56e34e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Demo/oasis2/oasis.study.skeleton/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Demo/oasis2/oasis.study.skeleton/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_c6d16580d305056a01a794365760d6b02c28e5ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.smartdevresponder/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.smartdevresponder/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_72a6cf626a95464613eaef56ec762a0bc9022778.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/pre-dexed/debug/okio-1.11.0_688d34aca2caed283e88a1c24131320bdc3a7a5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Demo/oasis2/oasis.study.skeleton/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Demo/oasis2/oasis.study.skeleton/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_5079ffebc1d5f420ca192c8f76a0c27c8cf7825f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_7359478819aa84e28d5ce5359bf1393a888ff405.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_3103cfbdb4540f883dabf923ac6fbe00813ec770.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedhr/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedhr/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_6132109faef81f2a64739e9d53da52ecc526146d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.frameinjector/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.frameinjector/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_f5cebd62b635d435c5f2f5370f73b6a679ad1e49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_d89eeeb41ba3fbbfa506f6c55a34f8c09b69fe3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.smartdevresponder/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.smartdevresponder/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_16c11f9f0a81a95c7197f774fa30cad247b50c61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/libs/sd-sdk-facial-processing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="18b675f7e2b5895521c475cded91414e2bfbe047">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/pre-dexed/debug/sd-sdk-facial-processing_78ec4923068b511f111ed80844ffc04885ffcbde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.caminjector/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.caminjector/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_07bbb0bab790bbceed3fc3b3083da90812b762ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.service/build/intermediates/pre-dexed/debug/commons-lang3-3.4_1188a367690041497a9c4776f356003c94541782.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_271247dc9ba6973c1f7b4cea87c3c2c41f4267b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/tubesock-0.0.12_89f8511ea2b38ba40386fac90356074b94a4be1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.0/7d0473896b3b10b23a2f9812fec4316dff8afdd/firebase-client-android-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="07d0473896b3b10b23a2f9812fec4316dff8afdd">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/firebase-client-android-2.5.0_23498bae8f61383ff0753203e5d397563830b0b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.service/build/intermediates/exploded-aar/oasis2/oasis.common/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="db0e9064223796bfedc89d0fc10324d04448639c">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.service/build/intermediates/pre-dexed/debug/oasis2-oasis.common-unspecified_139da5a6bd43e2601c1b96302d4b47054d25beec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.0/c0af904657634f7ab9cc21e75d80250570033321/firebase-client-jvm-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c0af904657634f7ab9cc21e75d80250570033321">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.5.0_5e3d1fd8784fe3b1fe39a503d28872cc4e2705b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Demo/oasis2/oasis.study.skeleton/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Demo/oasis2/oasis.study.skeleton/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_5f56814a9a8a1a3e0ae4f59fde32409f1f5503f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedhr/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedhr/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_91cfe5907248287b96bada9941cda8b35ceae17b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_1c16fd90a7a1508898c0b13c99e6acb9815c6364.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_15811694a3800c5919a557cc35c5f5f5e81ecb04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.skeleton/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.skeleton/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_7ab85587d29bfa5d4a09686756590f700d06634d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_3b936a5265eaea41b6cdb487217efd10123fa4ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Demo/oasis2/oasis.study.skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Demo/oasis2/oasis.study.skeleton/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_ef2e925d851693ed8be3caa3f2dd95da09610e8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.caminjector/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.caminjector/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_090882a095f55695b20efffce3f5cfe32f58c2cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_825dad46af8d3fdae40f3611eb12331cabc78d5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.smartdevresponder/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.smartdevresponder/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_2e58409fc7b3a35493fd14252c9839ba66d2a805.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2_0a176639cdcfeab3179b9421e8636a5ec58cb018.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.skeleton/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.skeleton/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_ec7e0fca3004232b76af5bc8d51998fa0af4fae5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.caminjector/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.caminjector/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_2f5960c0cd6d878c91f74877c35dc8a81586ec6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/jackson-core-2.2.2_539f291b4ed9f3ef4243e751c98b826915940c04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.frameinjector/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.frameinjector/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_cec2f7a248c4757068894c386d17836152d84843.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.skeleton/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.skeleton/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_e0da35fe0c34a5f6de9963b40c93d6283ad6594d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.frameinjector/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.frameinjector/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_6d56bd53a0619437e88124299d73c1b4a298e93f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_4af2a1aae7960adfd91ce50591978ed96ed0576e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_19448b99f8409d1560e536547e94768ff5488fb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.smartdevresponder/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.smartdevresponder/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_71611780a8a7d1e5b09349acf7dc675c42c8cbfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_068ef11d95bc863a2f17e670872b4270c2aa2640.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedhr/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedhr/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_c2e743b8a9a5f7c7a2671fc3ed34918d828e8067.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/exploded-aar/oasis2/oasis.client/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5300a6f25af44628c11c637766e8e836f80c4e3a">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/pre-dexed/debug/oasis2-oasis.client-unspecified_57e31b918a1afdc8acdb5d5f10ef87b3a3978aa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedhr/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedhr/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_281032bf7df7195674877ee3bd8646ed2bd05322.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.presencebasedcontrol/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_cc65917f7de1f1e4b257306da7a70fc6e060f746.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1e47268e271ff279aca3dfdd62587b8c90b6da14">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-22.2.1_3e5a9b25cc7ccd48456467c1cd4ece5122098b5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.skeleton/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_3d5f8bcc911ccc3fc11b9d3505945e99de356703.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.fencedfrdc/build/intermediates/pre-dexed/debug/okhttp-3.6.0_ee5e29993d1676a387275018755a8beed7563e32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/exploded-aar/oasis2/oasis.common/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="db0e9064223796bfedc89d0fc10324d04448639c">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.test/build/intermediates/pre-dexed/debug/oasis2-oasis.common-unspecified_295f117d5c04e50d5f8aeaa2397a737ab42ae8c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.frameinjector/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shihaojing/Projects/FlowFence_Release/oasis2/oasis.study.frameinjector/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_c6175ffd9c9f67212864d130d7497dd7a86434e3.jar" />
+    </item>
+
+</items>

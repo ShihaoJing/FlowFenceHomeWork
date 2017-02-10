@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "470701148339",
+    "firebase_url": "https://smartdevresponder.firebaseio.com",
+    "project_id": "smartdevresponder",
+    "storage_bucket": "smartdevresponder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470701148339:android:b936afde31553bc3",
+        "android_client_info": {
+          "package_name": "edu.lehigh.study.smartswitch.locationbeacon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470701148339-i38rp8fbcbj39ctjls6v1gqhn0au2vna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALw0olCpuLeNKKHyrNd9_vw2Zw_gi5mNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470701148339:android:9a04b191ef82652b",
+        "android_client_info": {
+          "package_name": "edu.umich.oasis.study.presencebasedcontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470701148339-i38rp8fbcbj39ctjls6v1gqhn0au2vna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALw0olCpuLeNKKHyrNd9_vw2Zw_gi5mNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470701148339:android:43235ef11ee04307",
+        "android_client_info": {
+          "package_name": "edu.lehigh.study.smartswitch.presencebroadcast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470701148339-i38rp8fbcbj39ctjls6v1gqhn0au2vna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALw0olCpuLeNKKHyrNd9_vw2Zw_gi5mNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470701148339:android:96ca44d4ce230a88",
+        "android_client_info": {
+          "package_name": "edu.lehigh.study.smartswitch.fencedpresencepublisher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470701148339-i38rp8fbcbj39ctjls6v1gqhn0au2vna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALw0olCpuLeNKKHyrNd9_vw2Zw_gi5mNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
