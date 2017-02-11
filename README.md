@@ -79,7 +79,7 @@ Tasks
 * Before doing task3, build and install oasis.service in your android device following basic steps section.
 * Do not use network functions in main thread, include SmartThings API. Your app will crash when you try to block main thread.
 * Refer to [OKHTTP](http://square.github.io/okhttp/) when you try to do HTTP in task2.
-* Refer to oasis.skeleton app when you are doing task3. HTTP api can be found in package 'edu.umich.oasis.service.service.TrustedAPI'.
+* Refer to oasis.skeleton app when you are doing task3. HTTP API can be found in package 'edu.umich.oasis.service.service.TrustedAPI'. SmartThings API can be found in package 'edu.umich.oasis.smartthings.SmartThingsService'.
 	* Get Dynamic API handler ('sendPush' method):
 	```java
     IDynamicAPI api = (IDynamicAPI) OASISContext.getInstance().getTrustedAPI("push");
