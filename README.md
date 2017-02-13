@@ -70,11 +70,12 @@ Tasks
 	* Presence information must be able to be received by any other apps.
 2. Implements a presence receiver app that can listen to presence publisher and control SmartThings switch according to different events.
 	* SmartThings APIs are in SmartThingsService module. Try to switch on/off an switch (we only have one) and use API to check if operations are executed successfully (whether state of switch changed).
-	
 3. Assume your presence receiver app is malicious. Try to send presence information to your own server and print it out.
+
 ### Task3: Fenced Presence Based Smart Switch Control
 1. Use FlowFence (Oasis) system to secure your presence information. Complete 'fencedpresencepublisher' and 'fencedpresenceresponder' module in oasis2. The frame has already been given. Now operation on sensitive data must be in Soda (Quarantine  Module).
 2. Perform sensitive data stealing attack you have done in task2. Try to figure out why sensitive data is protected now.
+
 ### Checklist
 * Before doing task3, build and install oasis.service in your android device following basic steps section.
 * Do not use network functions in main thread, include SmartThings API. Your app will crash when you try to block main thread.
