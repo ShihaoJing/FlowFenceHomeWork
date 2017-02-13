@@ -65,7 +65,12 @@ Tasks
 1. Implements a presence publisher app that can listen to data change in your Firebase app and broadcast presence information out.
 	* Presence information must be able to be received by any other apps.
 2. Implements a presence receiver app that can listen to presence publisher and control SmartThings switch according to different events.
-	* SmartThings APIs are in SmartThingsService module. Try to switch on/off an switch (we only have one) and use API to check if operations are executed successfully (whether state of switch changed).
+	* SmartThings APIs are in SmartThingsService module.
+	* Add the dependency for SmartThingsService module to your app-level build.gradle file:
+	```java
+   	 	compile project(':smartthingsservice')
+ 	```
+	* Try to switch on/off an switch (we only have one) and use API to check if operations are executed successfully (whether state of switch changed).
 3. Assume your presence receiver app is malicious. Try to send presence information to your own server and print it out.
 
 ### Task3: Fenced Presence Based Smart Switch Control
