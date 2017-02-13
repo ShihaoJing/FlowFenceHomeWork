@@ -74,19 +74,22 @@ Tasks
 3. Assume your presence receiver app is malicious. Try to send presence information to your own server and print it out.
 
 ### Task3: Fenced Presence Based Smart Switch Control
-1. Use FlowFence (Oasis) system to secure your presence information. Complete 'fencedpresencepublisher' and 'fencedpresenceresponder' module in oasis2. The frame has already been given. Now operation on sensitive data must be in Soda (Quarantine  Module).
-2. Perform sensitive data stealing attack you have done in task2. Try to figure out why sensitive data is protected now.
+1. Requirement: Use FlowFence (Oasis) system to secure your presence information. 
+2. Instructions:
+	* Complete 'fencedpresencepublisher' and 'fencedpresenceresponder' module in oasis2. The frame has already been given. Now operations on sensitive data must be in Soda (Quarantine  Module).
+	* For 'fencedpresencepublisher' module, complete PrensenceInjector and Prensence. For 'fencedpresenceresponder' module, complete ResponderService and ResponderSoda.
+	* Refer to 'oasis.study.skeleton' module when you try to figure out how to invoke functions in Soda and how to fire an event channel.
+	* Send presence information in 'fencedpresenceresponder' using Trusted API to your server (see checklist).
+	* If previous step failed, try to modify policy file 'oasis_manifest.xml' in res/xml folder in 'fencedpresencepublisher' module and see what will happend. ('oasis.study.skeleton' module has same XML file)
 
 ### Checklist
-* Before doing task3, build and install oasis.service in your android device following basic steps section.
-* Do not use network functions in main thread, include SmartThings API. Your app will crash when you try to block main thread.
+* Before doing task3, make sure oasis.service installed in your android device (There should be a 'edu.umich.oasis.service' process in Android Monitor of Android Studio.
 * Refer to [OKHTTP](http://square.github.io/okhttp/) when you try to do HTTP in task2.
 * Refer to oasis.skeleton app when you are doing task3. HTTP API can be found in package 'edu.umich.oasis.service.service.TrustedAPI'. SmartThings API can be found in package 'edu.umich.oasis.smartthings.SmartThingsService'.
-	* Get Dynamic API handler ('sendPush' method):
+	* Get Dynamic API handler ('HTTPRequest' method):
 	```java
-    IDynamicAPI api = (IDynamicAPI) OASISContext.getInstance().getTrustedAPI("push");
-   	api.invoke("sendPush", "title", "body");
+    	IDynamicAPI api = (IDynamicAPI)OASISContext.getInstance().getTrustedAPI("push");
+        api.invoke("HTTPRequest", "http://192.168.0.4:5000/upload", LOC_KEY, presence);
  	```
-* Complete policy file 'oasis_manifest.xml' in res/xml folder in 'fencedpresencepublisher' module. Refer to same policy file in oasis.skeleton app. Try to modify policy file and see what will happend.
 
 
