@@ -57,9 +57,10 @@ Tasks
 ### Task1: Firebase Android app
 1. Follow Firebase instructions: [Firebase](https://firebase.google.com/docs/android/setup)
 2. Basic functions:
-	* Use app to store presence information in Realtime Database of Firebase
+	* Use app to store presence information in Realtime Database of Firebase.
 	* Authorization is required.
-	* Presence information can be {location: home} or {location: away} key-value pair
+	* Presence information can be {location: home} or {location: away} key-value pair.
+	
 ### Task2: Presence Based Smart Switch Control
 1. Implements a presence publisher app that can listen to data change in your Firebase app and broadcast presence information out.
 	* Presence information must be able to be received by any other apps.
