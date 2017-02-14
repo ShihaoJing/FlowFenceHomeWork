@@ -7,12 +7,13 @@ import android.util.Log;
 import android.widget.Toast;
 
 import edu.umich.oasis.client.OASISConnection;
+import edu.umich.oasis.client.Soda;
 
 public class ResponderService extends Service {
     private static final String TAG = "ResponderService";
 
     OASISConnection oconn = null;
-    /* your code here */
+    Soda.S1<String, Void> pollPresence = null;
 
     public ResponderService()
     {
@@ -42,7 +43,13 @@ public class ResponderService extends Service {
     {
         if(oconn != null)
         {
-            /* your code here */
+            try {
+                pollPresence = oconn.resolveStatic(void.class, ResponderSoda.class, "pollPresenceAndCompute", String.class);
+
+            } catch(Exception e)
+            {
+                Log.e(TAG, "error: " + e);
+            }
         }
     }
 
@@ -58,7 +65,11 @@ public class ResponderService extends Service {
 
     void setupListener()
     {
-        /* your code here */
+        /*
+        * write code here.
+        * This function will set up listener in ResponderSoda and poll String value in presenceUpdateChannel.
+        * Please refer to MainActivity in oasis.study.skeleton and see how to set up listern for EventListener Soda.
+        * */
     }
 
 

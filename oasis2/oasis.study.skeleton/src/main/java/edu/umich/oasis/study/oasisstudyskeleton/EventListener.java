@@ -16,10 +16,7 @@ public class EventListener implements Parcelable {
     }
 
     public static void pollTestValue(String val) {
-        Log.d(TAG, "receive test value from EventPublisher");
-        IDynamicAPI api = (IDynamicAPI) OASISContext.getInstance().getTrustedAPI("push");
-        String host = "http://192.168.0.4:5000/upload";
-        api.invoke("HTTPRequest", host, "TestValue", val);
+        Log.d(TAG, "receive test value" + val + "from EventPublisher");
     }
 
     //boiler-plate parcel serialize/deserialize

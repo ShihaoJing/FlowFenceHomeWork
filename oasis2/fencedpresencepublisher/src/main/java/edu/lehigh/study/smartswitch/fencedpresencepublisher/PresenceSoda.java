@@ -1,16 +1,19 @@
 package edu.lehigh.study.smartswitch.fencedpresencepublisher;
 
+import android.content.ComponentName;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import edu.umich.oasis.common.TaintSet;
+
 public class PresenceSoda implements Parcelable
 {
-
     private static final String TAG = "PresenceSoda";
 
-    /* your code here */
-
-
+    private static final String TAINT_TAG = "edu.lehigh.study.smartswitch.fencedpresencepublisher/presenceTaint";
+    private static final String CHANNEL_NAME = "edu.lehigh.study.smartswitch.fencedpresencepublisher/presenceUpdateChannel";
+    private static final ComponentName PRESENCE_UPDATE_CHANNEL = ComponentName.unflattenFromString(CHANNEL_NAME);
+    private static final TaintSet PRESENCE_TAINT = new TaintSet.Builder().addTaint(TAINT_TAG).build();
 
     public PresenceSoda()
     {
@@ -19,7 +22,12 @@ public class PresenceSoda implements Parcelable
     public static void putLoc(String val)
     {
 
-        /* your code here */
+        /*
+        * Write your code here
+        * This function will add taint to String 'val', and fired channel event to broadcast 'val'.
+        * Channel name and taint set are class member.
+        * Please refer to EventPublisher in oasis.study.skeleton and see how to fire an event channel in Soda.
+        * */
     }
 
     //boiler-plate parcel serialize/deserialize

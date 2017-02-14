@@ -36,21 +36,22 @@ public final class SmartThingsService
     private final String DEVICE_TYPE_URI_SENSORS = "sensors";
     private final String DEVICE_TYPE_CTRL_SWITCH = "switchcontrol";
     private final String DEVICE_TYPE_CTRL_LOCK = "lockcontrol";
-    private final String DEVICE_TYPE_STATE_SWITCH = "switchstate";
-    private final String DEVICE_TYPE_STATE_SENSOR = "sensorstate";
 
     public static final String DEVICE_OPERATION_ON = "on";
     public static final String DEVICE_OPERATION_OFF = "off";
 
-    public static final String SINK_SMARTSWITCH = "SmartThings.SmartSwitch";
-    public static final String SINK_SMARTLOCK = "SmartThings.SmartLock";
 
     private SmartThingsService()
     {
-        fetchInstallationURL();
-        pullDevices(DEVICE_TYPE_URI_SWITCH);
-        //pullDevices(DEVICE_TYPE_URI_LOCKS);
-        pullDevices(DEVICE_TYPE_URI_SENSORS);
+        new Thread() {
+            public void run(){
+                fetchInstallationURL();
+                pullDevices(DEVICE_TYPE_URI_SWITCH);
+                //pullDevices(DEVICE_TYPE_URI_LOCKS);
+                pullDevices(DEVICE_TYPE_URI_SENSORS);
+            }
+        }.start();
+
     }
 
     public static SmartThingsService getInstance()
@@ -166,51 +167,22 @@ public final class SmartThingsService
         devOp(op, lockId, DEVICE_TYPE_CTRL_LOCK);
     }
 
-    private void devOp(String op, String id, String controlURIPart)
+    private void devOp(final String op, final String id, final String controlURIPart)
     {
-        try {
-            String controlURL = installationURL + "/" + controlURIPart + "/" + id + "/" + op;
-            Request ctrl = new Request.Builder()
-                    .url(controlURL)
-                    .addHeader("Authorization", OAuthToken)
-                    .put(RequestBody.create(null, new byte[0]))
-                    .build();
-            httpClient.newCall(ctrl).execute();
-        } catch(IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private String devState(String id, String stateURLPart)
-    {
-        String state = "unkown state";
-        try {
-            String controlURL = installationURL + "/" + stateURLPart + "/" + id;
-            Request ctrl = new Request.Builder()
-                    .url(controlURL)
-                    .addHeader("Authorization", OAuthToken)
-                    .build();
-            Response response = httpClient.newCall(ctrl).execute();
-            String jsonResp = response.body().string();
-            JSONObject switchObj = new JSONObject(jsonResp);
-            state = switchObj.getString(id);
-            return state;
-        } catch(IOException e) {
-            e.printStackTrace();
-        } catch (JSONException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        return state;
-    }
-
-    public String getSwitchState(String switchId)
-    {
-        return devState(switchId, DEVICE_TYPE_STATE_SWITCH);
-    }
-
-    public String getSensorState(String sensorId)
-    {
-        return devState(sensorId, DEVICE_TYPE_STATE_SENSOR);
+        new Thread() {
+            public void run() {
+                try {
+                    String controlURL = installationURL + "/" + controlURIPart + "/" + id + "/" + op;
+                    Request ctrl = new Request.Builder()
+                            .url(controlURL)
+                            .addHeader("Authorization", OAuthToken)
+                            .put(RequestBody.create(null, new byte[0]))
+                            .build();
+                    httpClient.newCall(ctrl).execute();
+                } catch(IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }.start();
     }
 }
