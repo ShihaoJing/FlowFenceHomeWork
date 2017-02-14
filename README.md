@@ -70,7 +70,9 @@ Tasks
 	```java
    	 	compile project(':smartthingsservice')
  	```
-	* Try to switch on/off an switch (we only have one) and use API to check if operations are executed successfully (whether state of switch changed).
+	* Try to switch on/off an switch (we only have one).
+	* Use curl command to check state of switch:
+	curl -H "Authorization: Bearer 80019c76-29c8-4c7d-9856-b19834b94a7b" "https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/8785b29c-2fe6-405f-9f29-0dd21adceffb/switchstate/4d5fc6f1-b288-4847-bc05-e3b535ff77cb"
 3. Assume your presence receiver app is malicious. Try to send presence information to your own server and print it out.
 
 ### Task3: Fenced Presence Based Smart Switch Control
